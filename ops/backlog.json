@@ -60,10 +60,11 @@
       "priority": "P0",
       "owner": "web-architect",
       "goal": "Continuă MVP-ul existent Sites: laptopuri SH, refurbished și noi",
-      "status": "ready",
+      "status": "superseded",
       "budget_eur_max": 0,
       "artifact": "reports/ecomputer-mvp-status.md",
-      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3"
+      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+      "next_step": "User prioritizează conectarea MVP-ului existent la domeniu; auditul și dezvoltarea sunt amânate"
     },
     {
       "task_id": "API-001",
@@ -98,9 +99,41 @@
       "priority": "P1",
       "owner": "web-architect",
       "goal": "Verifică interactiv MVP-ul Sites existent: catalog, categorii, RAM/SSD, coș și checkout exclusiv de test",
-      "status": "ready",
+      "status": "superseded",
       "budget_eur_max": 0,
-      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3"
+      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+      "next_step": "User prioritizează conectarea MVP-ului existent la domeniu; auditul și dezvoltarea sunt amânate"
+    },
+    {
+      "task_id": "DNS-001",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Conectează MVP-ul Sites la ecomputer.ro și www.ecomputer.ro",
+      "status": "done",
+      "artifact": "reports/ecomputer-domain-connection.md",
+      "authorization": "User a cerut explicit conectarea domeniului",
+      "evidence": [
+        "reports/ecomputer-domain-execution-evidence.json",
+        "reports/ecomputer-domain-costs.json",
+        "reports/ecomputer-email-dns-evidence.json"
+      ],
+      "budget_eur_max": 0,
+      "result": "ecomputer.ro și www.ecomputer.ro active în Sites, SSL activ pentru ambele; cache-uri DNS vechi observate",
+      "budget_eur_max_scope": "0 EUR reprezintă plafonul pentru achiziții noi aprobate, nu consum zero de credit prepaid existent",
+      "credit_consumed_usd": 3.056
+    },
+    {
+      "task_id": "DNS-002",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Confirmă pagina MVP pe domeniul principal după actualizarea cache-urilor DNS",
+      "status": "blocked",
+      "artifact": "reports/ecomputer-release-followup.json",
+      "budget_eur_max": 0,
+      "result": "www afișează MVP-ul; domeniul principal are răspunsuri publice neuniforme. Configurația este activă în Sites pentru ambele.",
+      "automation_scheduled": false,
+      "next_step": "O nouă citire punctuală la continuarea sesiunii; fără repetarea modificărilor DNS sau promisiune de termen fix.",
+      "blocker": "Cache-uri externe încă neuniforme; pagina MVP pe domeniul principal nu a fost confirmată public."
     }
   ]
 }

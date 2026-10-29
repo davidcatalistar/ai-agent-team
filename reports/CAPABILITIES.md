@@ -10,7 +10,9 @@ Data: 2026-10-29. «Instrument disponibil» nu înseamnă acces la orice cont. R
 | Subagenți în sesiune | Delegare efectivă pentru arhitectură, cercetare API, monitor local și QA | Nu dovedește agenți permanenți sau execuție după închiderea sesiunii |
 | ChatGPT/Codex plan, usage dashboard, credite | Neaccesate | Plan, sold și alocație reală necunoscute; nu presupunem Plus activ |
 | OpenAI API billing/key | Neconfigurate și neutilizate direct | Pilotul rămâne dezactivat; buget nou autorizat 0 EUR |
-| ecomputer.ro: pagini publice | La 2026-10-29, Operations și QA au observat redirecționarea către Account Suspended; domeniul principal, www și pagina de suspendare au fost citite | Auditul magazinului rămâne blocat; cauza, codul, CMS, hostingul, analytics și accesul administrativ nu sunt verificate. Dovezi în reports/ecomputer-source-evidence.json și reports/ecomputer-qa-evidence.json |
+| ecomputer.ro: vechiul hosting, istoric | Operations și QA au observat inițial Account Suspended | Recuperarea anulată de utilizator; dovezile istorice nu reprezintă starea actuală a noului MVP |
+| Cloudflare ecomputer.ro | Acces autentificat utilizat pentru DNS; cele 7 înregistrări necesare au fost salvate | Fără cumpărături, modificări ale emailului sau altor subdomenii; accesul nu implică permisiuni pentru alte zone sau servicii |
+| ecomputer.ro și www.ecomputer.ro: domenii noi | Sites confirmă ambele active, SSL activ; www afișează public MVP-ul demonstrativ | Domeniul principal are răspunsuri publice neuniforme și IPv6 vechi într-un resolver; propagare universală neconfirmată. Vezi reports/ecomputer-release-followup.json |
 | Scheduler/executor permanent | Neconfigurat | Nicio automatizare viitoare nu a fost programată în prima misiune |
 | ecomputer MVP nou — Sites | URL furnizat de utilizator, versiunea 2 publică, rol owner confirmat nativ; catalog API cu 4 produse demonstrative și 3 categorii; tabel orders existent | Nu au fost citite comenzi, create comenzi de test, schimbate permisiuni sau republicat Site-ul în această verificare. Fluxurile interactive rămân de verificat. Vezi reports/ecomputer-mvp-status.md |
 

@@ -17,11 +17,10 @@ Nu am creat, modificat sau republicat Site-ul furnizat în această verificare. 
 
 ## Urmează
 
-1. Folosim Site-ul existent și îi păstrăm identitatea și accesul; nu construim un al doilea Site în paralel.
-2. Verificăm interactiv căutarea, cele trei categorii, RAM/SSD unde sunt implementate, coșul și o comandă exclusiv de test, fără date personale reale. Acest pas nu a fost executat în verificarea curentă.
-3. Înlocuim exemplele cu produse, prețuri, stoc și reguli de upgrade confirmate înaintea lansării comerciale. Validăm accesul de administrare și gestionarea comenzilor, fără a le presupune funcționale dintr-un link `/admin`.
-4. Pregătim separat condițiile comerciale, livrarea și conectarea ecomputer.ro. DNS-ul domeniului nu a fost schimbat; orice schimbare se pregătește pentru aprobare.
+Utilizatorul a amânat explicit auditul și dezvoltarea, prioritizând conectarea la domeniu. Conectarea autorizată a fost executată: ecomputer.ro și www.ecomputer.ro sunt active în Sites cu SSL activ, iar www afișează public același MVP demonstrativ. Pentru domeniul principal răspunsurile publice sunt încă neuniforme. Vezi [raportul de conectare](ecomputer-domain-connection.md) și [verificarea publicării](ecomputer-release-followup.json).
+
+Păstrăm Site-ul existent, versiunea 2 și accesul public. La continuarea comercială sunt necesare produse, prețuri, stocuri, datele vânzătorului și condiții reale de comandă și livrare. Nu presupunem că mesajele demonstrative sau comenzile de test reprezintă un magazin comercial lansat. Auditul interactiv rămâne amânat.
 
 ## Cost și aprobare
 
-Nicio achiziție, modificare de abonament, comandă, plată, publicare nouă sau cerere directă OpenAI API în această verificare. Costul monetar al sesiunii și costurile contului/hostingului nu sunt vizibile; nu le declarăm zero. API suplimentar rămâne neactivat. Nu este necesară aprobare suplimentară pentru aceste citiri și documente; cheltuielile noi și modificările DNS/producție necesită aprobarea acțiunii concrete.
+Nicio achiziție, modificare de abonament, comandă, plată, republicare a codului sau cerere directă OpenAI API în această verificare. Configurarea DNS autorizată separat a consumat 3,056 USD din creditul existent. Continuarea cu citiri publice nu a produs o scădere suplimentară observată a soldului TinyFish. Costul monetar ChatGPT/Codex și facturile contului/hostingului nu sunt vizibile; nu le declarăm zero. API suplimentar rămâne neactivat. Nu este necesară aprobare suplimentară pentru aceste citiri și documente.

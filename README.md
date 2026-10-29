@@ -2,13 +2,15 @@
 
 Echipă de 8 specializări la cerere, coordonată de AI Operations Architect, cu plafon total de **100 EUR/lună**. Documentele definesc roluri și un flux de lucru; nu pornesc singure agenți permanenți.
 
+**ecomputer.ro, 29 octombrie:** domeniul principal și www sunt active în Sites cu SSL activ. [www.ecomputer.ro](https://www.ecomputer.ro/) afișează MVP-ul demonstrativ; pentru domeniul fără www răspunsurile publice sunt încă neuniforme. [Conectare și costuri](reports/ecomputer-domain-connection.md), [verificarea publicării](reports/ecomputer-release-followup.json). Produsele și comenzile sunt demonstrative, fără plată sau livrare reală.
+
 - [Analiza costurilor și sursele oficiale — 29 octombrie 2026](COST-OPTIMIZATION.md)
 - [ecomputer.ro — MVP-ul nou furnizat de utilizator și verificările efectuate](reports/ecomputer-mvp-status.md)
 - [Arhitectura și contractul între agenți](ARCHITECTURE.md)
 - [Planul de implementare pe 7 zile](IMPLEMENTATION-7-DAYS.md)
 - [Acces verificat și limitări](reports/CAPABILITIES.md)
 - [Audit public ecomputer.ro și blocajul de disponibilitate](reports/ecomputer-audit.md)
-- [Pașii pregătiți pentru recuperare](reports/ecomputer-recovery-runbook.md)
+- [Recuperarea vechiului hosting — document istoric, anulată](reports/ecomputer-recovery-runbook.md)
 - [Registru operațional](ops/README.md)
 
 În Codex, pornește o sesiune în acest repository și cere:

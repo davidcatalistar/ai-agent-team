@@ -1,0 +1,177 @@
+{
+  "recorded_at_utc": "2026-10-29T19:41:40.656Z",
+  "display_timezone": "Europe/Bucharest",
+  "project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+  "scope": "Verificare punctuală a publicării pe domeniu; auditul magazinului și comenzile rămân amânate.",
+  "site": {
+    "status": "active",
+    "audience": "public",
+    "version": 2,
+    "current_live_url": "https://ecomputer.ro"
+  },
+  "sites_domains": [
+    {
+      "hostname": "ecomputer.ro",
+      "status": "active",
+      "provider_status": "active",
+      "ssl_status": "active",
+      "provider_updated_at": "2026-10-29T18:28:54.258136+00:00"
+    },
+    {
+      "hostname": "www.ecomputer.ro",
+      "status": "active",
+      "provider_status": "active",
+      "ssl_status": "active",
+      "provider_updated_at": "2026-10-29T18:43:58.646536+00:00"
+    }
+  ],
+  "initial_public_http": {
+    "results": [
+      {
+        "url": "https://ecomputer.ro/",
+        "final_url": "https://ecomputer.ro/cgi-sys/suspendedpage.cgi",
+        "title": "Account Suspended",
+        "description": null,
+        "language": null,
+        "text": "Account Suspended\n\nThis Account has been suspended.\n\nContact your hosting provider for more information.",
+        "author": null,
+        "published_date": null,
+        "latency_ms": 2369.2319200199563,
+        "format": "markdown",
+        "page_metadata": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+        }
+      }
+    ],
+    "errors": [
+      {
+        "url": "https://www.ecomputer.ro/",
+        "error": "page_not_found",
+        "status": 404
+      }
+    ]
+  },
+  "public_dns": [
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=A&cd=1",
+      "final_url": "https://dns.google/resolve?name=ecomputer.ro&type=A&cd=1",
+      "title": null,
+      "description": null,
+      "language": null,
+      "text": "{\"Status\":0,\"TC\":false,\"RD\":true,\"RA\":true,\"AD\":false,\"CD\":true,\"Question\":[{\"name\":\"ecomputer.ro.\",\"type\":1}],\"Answer\":[{\"name\":\"ecomputer.ro.\",\"type\":1,\"TTL\":300,\"data\":\"162.159.143.30\"},{\"name\":\"ecomputer.ro.\",\"type\":1,\"TTL\":300,\"data\":\"172.66.3.26\"}],\"Comment\":\"Response from 162.159.44.200.\"}",
+      "author": null,
+      "published_date": null,
+      "latency_ms": 248.95041600393597,
+      "format": "markdown"
+    },
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=AAAA&cd=1",
+      "final_url": "https://dns.google/resolve?name=ecomputer.ro&type=AAAA&cd=1",
+      "title": null,
+      "description": null,
+      "language": null,
+      "text": "{\"Status\":0,\"TC\":false,\"RD\":true,\"RA\":true,\"AD\":false,\"CD\":true,\"Question\":[{\"name\":\"ecomputer.ro.\",\"type\":28}],\"Answer\":[{\"name\":\"ecomputer.ro.\",\"type\":28,\"TTL\":8448,\"data\":\"2a0f:4480:0:2::130\"}]}",
+      "author": null,
+      "published_date": null,
+      "latency_ms": 76.69880299363285,
+      "format": "markdown"
+    },
+    {
+      "url": "https://dns.google/resolve?name=www.ecomputer.ro&type=CNAME&cd=1",
+      "final_url": "https://dns.google/resolve?name=www.ecomputer.ro&type=CNAME&cd=1",
+      "title": null,
+      "description": null,
+      "language": null,
+      "text": "{\"Status\":0,\"TC\":false,\"RD\":true,\"RA\":true,\"AD\":false,\"CD\":true,\"Question\":[{\"name\":\"www.ecomputer.ro.\",\"type\":5}],\"Answer\":[{\"name\":\"www.ecomputer.ro.\",\"type\":5,\"TTL\":300,\"data\":\"custom-domains.chatgpt.site.\"}],\"Comment\":\"Response from 108.162.195.200.\"}",
+      "author": null,
+      "published_date": null,
+      "latency_ms": 271.23420299903955,
+      "format": "markdown"
+    },
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=NS&cd=1",
+      "final_url": "https://dns.google/resolve?name=ecomputer.ro&type=NS&cd=1",
+      "title": null,
+      "description": null,
+      "language": null,
+      "text": "{\"Status\":0,\"TC\":false,\"RD\":true,\"RA\":true,\"AD\":false,\"CD\":true,\"Question\":[{\"name\":\"ecomputer.ro.\",\"type\":2}],\"Answer\":[{\"name\":\"ecomputer.ro.\",\"type\":2,\"TTL\":21600,\"data\":\"adi.ns.cloudflare.com.\"},{\"name\":\"ecomputer.ro.\",\"type\":2,\"TTL\":21600,\"data\":\"patrick.ns.cloudflare.com.\"}],\"Comment\":\"Response from 172.64.35.200.\"}",
+      "author": null,
+      "published_date": null,
+      "latency_ms": 259.6981800015783,
+      "format": "markdown"
+    }
+  ],
+  "origin_public_page": {
+    "url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+    "final_url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+    "title": "eComputer — Catalog demonstrativ",
+    "description": "eComputer MVP — catalog demonstrativ de laptopuri second hand, refurbished și noi, cu comenzi de test.",
+    "language": "ro",
+    "text": "Catalog demonstrativ\n\n# Laptopul potrivit. Simplu.\n\nExplorează laptopuri second hand, refurbished și noi, apoi trimite o comandă de test în câțiva pași.\n\n**Versiune demonstrativă.** Produsele și prețurile sunt exemple. Comenzile sunt salvate ca teste, fără plată sau livrare.\n\nCaută laptopuri\n\nSe încarcă produsele…Prețuri demonstrative în lei",
+    "author": null,
+    "published_date": null,
+    "latency_ms": 810.507629008498,
+    "format": "markdown"
+  },
+  "followup_public_http": {
+    "results": [
+      {
+        "url": "https://dns.google/resolve?name=ecomputer.ro&type=AAAA&cd=1&edns_client_subnet=0.0.0.0%2F0",
+        "final_url": "https://dns.google/resolve?name=ecomputer.ro&type=AAAA&cd=1&edns_client_subnet=0.0.0.0%2F0",
+        "title": null,
+        "description": null,
+        "language": null,
+        "text": "{\"Status\":0,\"TC\":false,\"RD\":true,\"RA\":true,\"AD\":false,\"CD\":true,\"Question\":[{\"name\":\"ecomputer.ro.\",\"type\":28}],\"Answer\":[{\"name\":\"ecomputer.ro.\",\"type\":28,\"TTL\":8390,\"data\":\"2a0f:4480:0:2::130\"}],\"edns\\_client\\_subnet\":\"0.0.0.0/0\"}",
+        "author": null,
+        "published_date": null,
+        "latency_ms": 56.322507007280365,
+        "format": "markdown"
+      },
+      {
+        "url": "https://www.ecomputer.ro/?launchcheck=20261029",
+        "final_url": "https://www.ecomputer.ro/?launchcheck=20261029",
+        "title": "eComputer — Catalog demonstrativ",
+        "description": "eComputer MVP — catalog demonstrativ de laptopuri second hand, refurbished și noi, cu comenzi de test.",
+        "language": "ro",
+        "text": "Catalog demonstrativ\n\n# Laptopul potrivit. Simplu.\n\nExplorează laptopuri second hand, refurbished și noi, apoi trimite o comandă de test în câțiva pași.\n\n**Versiune demonstrativă.** Produsele și prețurile sunt exemple. Comenzile sunt salvate ca teste, fără plată sau livrare.\n\nCaută laptopuri\n\nSe încarcă produsele…Prețuri demonstrative în lei",
+        "author": null,
+        "published_date": null,
+        "latency_ms": 818.8862300012261,
+        "format": "markdown"
+      }
+    ],
+    "errors": [
+      {
+        "url": "https://ecomputer.ro/?launchcheck=20261029",
+        "error": "page_not_found",
+        "status": 404
+      }
+    ]
+  },
+  "independent_reader": {
+    "www_url": "https://www.ecomputer.ro/",
+    "www_title": "eComputer — Catalog demonstrativ",
+    "www_contains_demo_notice": true,
+    "apex_url": "https://ecomputer.ro/",
+    "apex_result": "URL not accessible via the independent reader; this result alone does not establish site failure."
+  },
+  "conclusion": {
+    "www_mvp_page_confirmed": true,
+    "apex_mvp_page_confirmed": false,
+    "public_dns_responses_mixed": true,
+    "old_ipv6_returned_by_one_recursive_resolver": "2a0f:4480:0:2::130",
+    "root_cause": "Mixed resolver/cache observations are consistent with propagation; no authoritative AAAA lookup or universal propagation was verified.",
+    "store_mode": "demonstration",
+    "real_payments_or_deliveries_claimed": false
+  },
+  "cost": {
+    "currency": "USD",
+    "new_tinyfish_balance_decrease_observed": "0.000000",
+    "fetch_rate_per_url": "0",
+    "new_purchases": 0,
+    "paid_browser_runs_started": 0,
+    "chatgpt_codex_session_billing_visible": false
+  },
+  "next_step": "Recheck apex public page after resolver caches refresh. Real commerce requires confirmed products, stock, seller and order/delivery terms.",
+  "approval": "No additional approval needed for these reads and documentation. No new purchases or production source changes."
+}

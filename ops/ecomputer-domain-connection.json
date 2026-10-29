@@ -1,0 +1,107 @@
+{
+  "project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+  "site_url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+  "domain": "ecomputer.ro",
+  "domain_id": "appgdom_6ae350894d2c8191a0d6c4d843c42b5b",
+  "www_domain_id": "appgdom_6ae37c3357a08191ab94f0e669aaa248",
+  "status": "active",
+  "ssl_status": "active",
+  "user_authorized_connection": true,
+  "user_confirmed_access": "RoTLD și Cloudflare prin profil autentificat",
+  "registrar_user_reported": "Romarg SRL",
+  "expiry_user_reported": "2032-01-27",
+  "ds_user_reported": "not set",
+  "recommended_dns_service": "Cloudflare Free",
+  "dns_service_account_connected": true,
+  "nameservers_to_assign": [
+    "adi.ns.cloudflare.com",
+    "patrick.ns.cloudflare.com"
+  ],
+  "records_to_add": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "162.159.143.30",
+      "ttl": 300,
+      "proxy": "DNS only"
+    },
+    {
+      "type": "A",
+      "name": "@",
+      "value": "172.66.3.26",
+      "ttl": 300,
+      "proxy": "DNS only"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "custom-domains.chatgpt.site",
+      "ttl": 300,
+      "proxy": "DNS only"
+    },
+    {
+      "type": "TXT",
+      "name": "_openai-site-verification",
+      "value": "openai-site-verification=3Dp9WQnuT1DLXLMO27ECDXUp-UNKnoILvbz7QdQy6mQ",
+      "ttl": 300
+    },
+    {
+      "type": "TXT",
+      "name": "_cf-custom-hostname",
+      "value": "e338e653-466a-40f1-9a00-216bb877065e",
+      "ttl": 300
+    },
+    {
+      "type": "TXT",
+      "name": "_openai-site-verification.www",
+      "value": "openai-site-verification=wzkDId5DXR0FQzZhLAx5iB3SkOVJm66imjZuq3PsuQY",
+      "ttl": 300
+    },
+    {
+      "type": "TXT",
+      "name": "_cf-custom-hostname.www",
+      "value": "c9ead9e7-02d7-4195-a09f-5dd81b5cf172",
+      "ttl": 300
+    }
+  ],
+  "records_to_replace": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "80.96.33.69"
+    }
+  ],
+  "records_to_remove_for_web_cutover": [
+    {
+      "type": "AAAA",
+      "name": "@",
+      "value": "2a0f:4480:0:2::130"
+    }
+  ],
+  "preserve": [
+    "MX",
+    "Mail-related TXT/SPF/DKIM/DMARC",
+    "Unrelated subdomains"
+  ],
+  "next_required_user_action": null,
+  "nameserver_delegation_observed": "Cloudflare nameservers confirmed by public DNS",
+  "public_dns_cache_propagation_remaining": true,
+  "confirmed_domains": [
+    {
+      "hostname": "ecomputer.ro",
+      "status": "active",
+      "ssl_status": "active"
+    },
+    {
+      "hostname": "www.ecomputer.ro",
+      "status": "active",
+      "ssl_status": "active"
+    }
+  ],
+  "credit_consumed_usd": 3.056,
+  "public_mvp_page_confirmed": {
+    "www.ecomputer.ro": true,
+    "ecomputer.ro": false
+  },
+  "public_observation_evidence": "reports/ecomputer-release-followup.json"
+}

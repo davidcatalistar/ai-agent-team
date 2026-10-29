@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Europe/Bucharest",
+  "currency": "USD",
+  "coverage": "Intervalul observat astăzi; nu reprezintă istoricul complet de la miezul nopții",
+  "exact_wallet_balances_omitted_for_publication": true,
+  "confirmed_dns_credit_consumed": "3.056000",
+  "total_observed_balance_decrease": "3.312000",
+  "other_unattributed_balance_decrease": "0.256000",
+  "new_purchases_initiated_by_assistant": 0,
+  "auto_reload": "unconfigured",
+  "chatgpt_codex_billing_visible": false,
+  "note": "Consum de credit existent, separat de achiziții noi. Diferența suplimentară nu poate fi atribuită precis fără istoricul detaliat al furnizorului."
+}

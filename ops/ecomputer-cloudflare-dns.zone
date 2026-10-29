@@ -1,0 +1,13 @@
+; ecomputer.ro — website-only records supplied by Sites, 29 October 2026
+; Add to the Cloudflare zone; preserve existing mail/subdomain records.
+; Set all A and CNAME records below to DNS only (gray cloud).
+; Remove the old apex A=80.96.33.69 and AAAA=2a0f:4480:0:2::130.
+$ORIGIN ecomputer.ro.
+$TTL 300
+@ IN A 162.159.143.30 ; cf_tags=cf-proxied:false
+@ IN A 172.66.3.26 ; cf_tags=cf-proxied:false
+www IN CNAME custom-domains.chatgpt.site. ; cf_tags=cf-proxied:false
+_openai-site-verification IN TXT "openai-site-verification=3Dp9WQnuT1DLXLMO27ECDXUp-UNKnoILvbz7QdQy6mQ"
+_cf-custom-hostname IN TXT "e338e653-466a-40f1-9a00-216bb877065e"
+_openai-site-verification.www IN TXT "openai-site-verification=wzkDId5DXR0FQzZhLAx5iB3SkOVJm66imjZuq3PsuQY"
+_cf-custom-hostname.www IN TXT "c9ead9e7-02d7-4195-a09f-5dd81b5cf172"
