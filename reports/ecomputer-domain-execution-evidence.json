@@ -1,0 +1,175 @@
+{
+  "recorded_at_utc": "2026-10-29T19:41:40.656Z",
+  "display_timezone": "Europe/Bucharest",
+  "project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+  "site_url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+  "requested_custom_domains": [
+    "ecomputer.ro",
+    "www.ecomputer.ro"
+  ],
+  "domains": [
+    {
+      "hostname": "ecomputer.ro",
+      "status": "active",
+      "provider_status": "active",
+      "ssl_status": "active",
+      "provider_updated_at": "2026-10-29T18:28:54.258136+00:00"
+    },
+    {
+      "hostname": "www.ecomputer.ro",
+      "status": "active",
+      "provider_status": "active",
+      "ssl_status": "active",
+      "provider_updated_at": "2026-10-29T18:43:58.646536+00:00"
+    }
+  ],
+  "dns_changes": {
+    "old_records_removed": [
+      {
+        "type": "A",
+        "name": "@",
+        "value": "80.96.33.69"
+      },
+      {
+        "type": "AAAA",
+        "name": "@",
+        "value": "2a0f:4480:0:2::130"
+      }
+    ],
+    "nameservers": [
+      "adi.ns.cloudflare.com",
+      "patrick.ns.cloudflare.com"
+    ],
+    "mail_records_not_modified": true
+  },
+  "public_dns_observation": [
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=A&cd=1",
+      "status": 0,
+      "answers": [
+        {
+          "name": "ecomputer.ro.",
+          "type": 1,
+          "TTL": 300,
+          "data": "162.159.143.30"
+        },
+        {
+          "name": "ecomputer.ro.",
+          "type": 1,
+          "TTL": 300,
+          "data": "172.66.3.26"
+        }
+      ]
+    },
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=AAAA&cd=1",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "url": "https://dns.google/resolve?name=www.ecomputer.ro&type=CNAME&cd=1",
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.ecomputer.ro.",
+          "type": 5,
+          "TTL": 10668,
+          "data": "ecomputer.ro."
+        }
+      ]
+    },
+    {
+      "url": "https://dns.google/resolve?name=_openai-site-verification.ecomputer.ro&type=TXT&cd=1",
+      "status": 0,
+      "answers": [
+        {
+          "name": "_openai-site-verification.ecomputer.ro.",
+          "type": 16,
+          "TTL": 300,
+          "data": "openai-site-verification=3Dp9WQnuT1DLXLMO27ECDXUp-UNKnoILvbz7QdQy6mQ"
+        }
+      ]
+    },
+    {
+      "url": "https://dns.google/resolve?name=_cf-custom-hostname.ecomputer.ro&type=TXT&cd=1",
+      "status": 0,
+      "answers": [
+        {
+          "name": "_cf-custom-hostname.ecomputer.ro.",
+          "type": 16,
+          "TTL": 300,
+          "data": "e338e653-466a-40f1-9a00-216bb877065e"
+        }
+      ]
+    },
+    {
+      "url": "https://dns.google/resolve?name=_openai-site-verification.www.ecomputer.ro&type=TXT&cd=1",
+      "status": 0,
+      "answers": [
+        {
+          "name": "_openai-site-verification.www.ecomputer.ro.",
+          "type": 16,
+          "TTL": 300,
+          "data": "openai-site-verification=wzkDId5DXR0FQzZhLAx5iB3SkOVJm66imjZuq3PsuQY"
+        }
+      ]
+    },
+    {
+      "url": "https://dns.google/resolve?name=_cf-custom-hostname.www.ecomputer.ro&type=TXT&cd=1",
+      "status": 0,
+      "answers": [
+        {
+          "name": "_cf-custom-hostname.www.ecomputer.ro.",
+          "type": 16,
+          "TTL": 300,
+          "data": "c9ead9e7-02d7-4195-a09f-5dd81b5cf172"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Initial and subsequent recursive DNS/HTTP observations were mixed; universal propagation is not confirmed.",
+    "Later www CNAME query returned custom-domains.chatgpt.site and two independent readers displayed the MVP on www.",
+    "The apex still returned old hosting or 404 in the public readers; an old AAAA remains in one recursive resolver. Its authoritative current state was not independently queried.",
+    "No app checkout/order audit or outbound email test was performed."
+  ],
+  "automation": {
+    "runs": [
+      {
+        "run_id": "b7ac174b-ee38-40f5-b7a1-843246cb48e2",
+        "steps": 53,
+        "duration_seconds": 436,
+        "outcome": "Two apex A records saved; other records continued in a later run"
+      },
+      {
+        "run_id": "e4aa10f0-298b-47f0-a38c-19174739c802",
+        "steps": 64,
+        "duration_seconds": 625,
+        "outcome": "Old apex A/AAAA removed and two apex TXT records saved"
+      },
+      {
+        "run_id": "ac9aa476-b31f-4e93-b31e-48415dc717e4",
+        "steps": 48,
+        "duration_seconds": 250,
+        "outcome": "Existing www CNAME edited to the Sites target, DNS only"
+      },
+      {
+        "run_id": "407ef3bd-7c2e-4194-822c-42d5a885ef49",
+        "steps": 26,
+        "duration_seconds": 210,
+        "outcome": "Both www TXT records saved"
+      }
+    ],
+    "total_steps": 191,
+    "usd_per_step": 0.016,
+    "calculated_agent_usage_usd": 3.056,
+    "observed_credit_balance_decrease_usd": 3.056,
+    "exact_wallet_balances_omitted_for_publication": true,
+    "auto_reload": "unconfigured",
+    "new_credit_purchases": false,
+    "subscription_changes": false
+  },
+  "connection_status": "both_domains_active_ssl_active",
+  "record_scope": "Raport consolidat după conectare; observațiile DNS inițiale sunt istorice. Citirile ulterioare sunt în ecomputer-release-followup.json.",
+  "followup_evidence": "reports/ecomputer-release-followup.json"
+}

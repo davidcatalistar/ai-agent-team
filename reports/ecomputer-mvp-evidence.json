@@ -1,0 +1,88 @@
+{
+  "consulted_date_utc": "2026-10-29",
+  "site": {
+    "project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+    "url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site",
+    "title": "eComputer",
+    "version": 2,
+    "current_user_role": "owner",
+    "access_mode": "public"
+  },
+  "homepage": {
+    "url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+    "final_url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+    "title": "eComputer — Catalog demonstrativ",
+    "text": "Catalog demonstrativ\n\n# Laptopul potrivit. Simplu.\n\nExplorează laptopuri second hand, refurbished și noi, apoi trimite o comandă de test în câțiva pași.\n\n**Versiune demonstrativă.** Produsele și prețurile sunt exemple. Comenzile sunt salvate ca teste, fără plată sau livrare.\n\nCaută laptopuri\n\nSe încarcă produsele…Prețuri demonstrative în lei"
+  },
+  "catalog": {
+    "url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/api/products",
+    "products": [
+      {
+        "id": "laptop-second-hand-14",
+        "name": "Laptop Business 14",
+        "category": "Laptop second hand",
+        "description": "Exemplu demonstrativ de laptop second hand pentru lucru și studiu.",
+        "specs": [
+          "Ecran 14 inch",
+          "Memorie 8 GB",
+          "SSD 256 GB"
+        ],
+        "price_cents": 99900,
+        "illustration": "laptop"
+      },
+      {
+        "id": "laptop-refurbished-15",
+        "name": "Laptop Office 15",
+        "category": "Laptop refurbished",
+        "description": "Exemplu demonstrativ de laptop refurbished pentru activități de birou.",
+        "specs": [
+          "Ecran 15,6 inch",
+          "Memorie 16 GB",
+          "SSD 512 GB"
+        ],
+        "price_cents": 169900,
+        "illustration": "laptop"
+      },
+      {
+        "id": "laptop-14",
+        "name": "Laptop Essential 14",
+        "category": "Laptop nou",
+        "description": "Exemplu demonstrativ de laptop nou, compact, pentru activitățile de zi cu zi.",
+        "specs": [
+          "Ecran 14 inch",
+          "Memorie 8 GB",
+          "SSD 256 GB"
+        ],
+        "price_cents": 249900,
+        "illustration": "laptop"
+      },
+      {
+        "id": "laptop-nou-15",
+        "name": "Laptop Everyday 15",
+        "category": "Laptop nou",
+        "description": "Exemplu demonstrativ de laptop nou cu ecran generos pentru utilizare zilnică.",
+        "specs": [
+          "Ecran 15,6 inch",
+          "Memorie 16 GB",
+          "SSD 512 GB"
+        ],
+        "price_cents": 319900,
+        "illustration": "laptop"
+      }
+    ],
+    "is_demo": true
+  },
+  "database_overview": {
+    "binding": "DB",
+    "tables": [
+      "orders"
+    ],
+    "rows_read": false
+  },
+  "limits": [
+    "Read-only inspection; no purchase, order submission, access changes or publication performed",
+    "Existence of orders table does not prove the full order flow works",
+    "Catalog extractor's initial loading text does not establish a frontend failure",
+    "RAM/SSD configurator, cart, checkout and mobile UI have not been verified on this hosted version"
+  ]
+}

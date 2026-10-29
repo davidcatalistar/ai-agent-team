@@ -1,0 +1,13 @@
+{
+  "scope": "DNS configuration through the existing browser automation credit balance",
+  "date": "2026-10-29",
+  "currency": "USD",
+  "agent_steps": 191,
+  "rate_per_step": 0.016,
+  "credit_consumed": 3.056,
+  "exact_wallet_balances_omitted_for_publication": true,
+  "new_purchases": 0,
+  "auto_reload": "unconfigured",
+  "cash_budget_note": "Prepaid-credit usage is tracked separately from cash purchases to prevent double counting. EUR conversion and the user's total monthly invoices remain unknown.",
+  "app_checkout_tests": false
+}

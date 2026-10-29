@@ -1,0 +1,139 @@
+{
+  "updated": "2026-10-29",
+  "items": [
+    {
+      "task_id": "OPS-001",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Costuri oficiale, arhitectură, plan și registru local",
+      "artifact": "COST-OPTIMIZATION.md",
+      "status": "done",
+      "evidence": [
+        "reports/QA-OPS-001.md",
+        "8 teste trecute; QA independent accepted"
+      ],
+      "budget_eur_max": 0,
+      "acceptance": [
+        "Surse oficiale datate",
+        "Buget <=100 EUR",
+        "8 profiluri",
+        "Plan 7 zile",
+        "QA independent"
+      ]
+    },
+    {
+      "task_id": "WEB-001",
+      "priority": "P0",
+      "owner": "web-architect",
+      "goal": "Audit public ecomputer.ro și backlog comercial cu dovezi",
+      "artifact": "reports/ecomputer-audit.md",
+      "status": "done",
+      "budget_eur_max": 0,
+      "allowed_actions": [
+        "public_read",
+        "local_write"
+      ],
+      "acceptance": [
+        "Observații susținute de pagini accesibile",
+        "Maximum 10 priorități impact/efort",
+        "Acces admin și date neverificate marcate"
+      ],
+      "evidence": [
+        "reports/ecomputer-audit.md",
+        "reports/ecomputer-source-evidence.json",
+        "reports/ecomputer-qa-evidence.json",
+        "reports/QA-WEB-001.md"
+      ],
+      "scope_result": "Audit public delimitat acceptat; auditul comercial complet este blocat de pagina Account Suspended"
+    },
+    {
+      "task_id": "FIN-001",
+      "priority": "P0",
+      "owner": "data-finance-analyst",
+      "goal": "Înregistrează factura reală și toate abonamentele AI în buget",
+      "status": "blocked",
+      "blocker": "Facturi și plan activ nevizibile în sesiune",
+      "budget_eur_max": 0
+    },
+    {
+      "task_id": "WEB-002",
+      "priority": "P0",
+      "owner": "web-architect",
+      "goal": "Continuă MVP-ul existent Sites: laptopuri SH, refurbished și noi",
+      "status": "superseded",
+      "budget_eur_max": 0,
+      "artifact": "reports/ecomputer-mvp-status.md",
+      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+      "next_step": "User prioritizează conectarea MVP-ului existent la domeniu; auditul și dezvoltarea sunt amânate"
+    },
+    {
+      "task_id": "API-001",
+      "priority": "P1",
+      "owner": "automation-engineer",
+      "goal": "Pilot API cu rezervare de cost și limite configurate",
+      "status": "blocked",
+      "blocker": "Aprobare cheltuială și proiect/cheie API lipsă",
+      "budget_eur_max": 0,
+      "proposed_budget_eur": 10
+    },
+    {
+      "task_id": "INC-001",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Clarifică motivul suspendării și pregătește remedierea proporțională",
+      "artifact": "reports/ecomputer-recovery-runbook.md",
+      "status": "superseded",
+      "blocker": "Recuperarea vechiului site a fost anulată explicit de utilizator; nu se mai așteaptă notificarea de hosting",
+      "budget_eur_max": 0,
+      "allowed_actions": [
+        "read",
+        "local_write"
+      ],
+      "acceptance": [
+        "Cauza confirmată din contul oficial",
+        "Acțiune concretă, cost și risc pregătite înainte de aprobare"
+      ]
+    },
+    {
+      "task_id": "WEB-005",
+      "priority": "P1",
+      "owner": "web-architect",
+      "goal": "Verifică interactiv MVP-ul Sites existent: catalog, categorii, RAM/SSD, coș și checkout exclusiv de test",
+      "status": "superseded",
+      "budget_eur_max": 0,
+      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+      "next_step": "User prioritizează conectarea MVP-ului existent la domeniu; auditul și dezvoltarea sunt amânate"
+    },
+    {
+      "task_id": "DNS-001",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Conectează MVP-ul Sites la ecomputer.ro și www.ecomputer.ro",
+      "status": "done",
+      "artifact": "reports/ecomputer-domain-connection.md",
+      "authorization": "User a cerut explicit conectarea domeniului",
+      "evidence": [
+        "reports/ecomputer-domain-execution-evidence.json",
+        "reports/ecomputer-domain-costs.json",
+        "reports/ecomputer-email-dns-evidence.json"
+      ],
+      "budget_eur_max": 0,
+      "result": "ecomputer.ro și www.ecomputer.ro active în Sites, SSL activ pentru ambele; cache-uri DNS vechi observate",
+      "budget_eur_max_scope": "0 EUR reprezintă plafonul pentru achiziții noi aprobate, nu consum zero de credit prepaid existent",
+      "credit_consumed_usd": 3.056
+    },
+    {
+      "task_id": "DNS-002",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Confirmă pagina MVP pe domeniul principal după actualizarea cache-urilor DNS",
+      "status": "blocked",
+      "artifact": "reports/ecomputer-release-followup.json",
+      "budget_eur_max": 0,
+      "result": "www afișează MVP-ul; domeniul principal are răspunsuri publice neuniforme. Configurația este activă în Sites pentru ambele.",
+      "automation_scheduled": false,
+      "next_step": "O nouă citire punctuală la continuarea sesiunii; fără repetarea modificărilor DNS sau promisiune de termen fix.",
+      "blocker": "Cache-uri externe încă neuniforme; pagina MVP pe domeniul principal nu a fost confirmată public."
+    }
+  ]
+}

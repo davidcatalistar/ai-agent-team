@@ -1,0 +1,18 @@
+{
+  "task_id": "EXAMPLE-001",
+  "priority": "P1",
+  "owner": "web-architect",
+  "goal": "Înlocuiește cu un obiectiv delimitat",
+  "inputs": [],
+  "artifact": "reports/example.md",
+  "acceptance": ["Un criteriu observabil și verificabil"],
+  "allowed_actions": ["read", "local_write"],
+  "budget_eur_max": 0,
+  "paid_usage_approved": false,
+  "max_retries": 2,
+  "reviewer": "qa-release-engineer",
+  "status": "template",
+  "evidence": [],
+  "actual_cost_eur": null,
+  "next_step": "Completează contractul înainte de delegare"
+}

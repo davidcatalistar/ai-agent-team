@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-10-29 18:13:34 UTC",
+  "domain": "ecomputer.ro",
+  "method": "Read-only Google Public DNS-over-HTTPS via TinyFish fetch_content; ttl=0",
+  "sources": [
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=MX",
+      "dns_status": 0,
+      "answers": [
+        {
+          "name": "ecomputer.ro.",
+          "type": 15,
+          "ttl_seconds": 300,
+          "data": "20 mx2.spatiul.ro."
+        },
+        {
+          "name": "ecomputer.ro.",
+          "type": 15,
+          "ttl_seconds": 300,
+          "data": "40 mx4.spatiul.ro."
+        },
+        {
+          "name": "ecomputer.ro.",
+          "type": 15,
+          "ttl_seconds": 300,
+          "data": "10 mx1.spatiul.ro."
+        },
+        {
+          "name": "ecomputer.ro.",
+          "type": 15,
+          "ttl_seconds": 300,
+          "data": "30 mx3.spatiul.ro."
+        }
+      ]
+    },
+    {
+      "url": "https://dns.google/resolve?name=ecomputer.ro&type=TXT",
+      "dns_status": 0,
+      "answers": [
+        {
+          "name": "ecomputer.ro.",
+          "type": 16,
+          "ttl_seconds": 300,
+          "data": "v=spf1 ip4:80.96.32.22 ip4:80.96.33.69 +a +mx ~all"
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "mx": [
+      "10 mx1.spatiul.ro.",
+      "20 mx2.spatiul.ro.",
+      "30 mx3.spatiul.ro.",
+      "40 mx4.spatiul.ro."
+    ],
+    "spf": "v=spf1 ip4:80.96.32.22 ip4:80.96.33.69 +a +mx ~all"
+  },
+  "comparison": {
+    "mx_records_preserved": true,
+    "spf_text_preserved": true
+  },
+  "limits": [
+    "This confirms the public resolver's returned MX values and SPF TXT text at the observation time only.",
+    "No mailbox access, message sending or receiving, DKIM, DMARC or end-to-end email delivery was tested.",
+    "The SPF +a mechanism follows apex A/AAAA DNS; preserving TXT text alone does not assert identical effective SPF evaluation after website DNS changes.",
+    "No DNS writes, authentication, order submission, purchase or paid browser automation performed."
+  ],
+  "cost": "Session monetary cost unknown; no purchase or direct OpenAI API call"
+}

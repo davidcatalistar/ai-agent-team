@@ -1,0 +1,22 @@
+{
+  "consulted_date_utc": "2026-10-29",
+  "tool": "TinyFish fetch_content",
+  "cache_ttl_seconds": 0,
+  "scope": "Public read only",
+  "results": [
+    {
+      "url": "https://ecomputer.ro/",
+      "final_url": "https://ecomputer.ro/cgi-sys/suspendedpage.cgi",
+      "title": "Account Suspended",
+      "text": "Account Suspended\n\nThis Account has been suspended.\n\nContact your hosting provider for more information.",
+      "links": [
+        "https://www.awebdesign.ro/contact"
+      ],
+      "page_metadata": {
+        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+      }
+    }
+  ],
+  "errors": [],
+  "note": "This extraction establishes the public page seen by the tool, not the cause of suspension, account ownership, hosting billing status, or an HTTP status code."
+}
