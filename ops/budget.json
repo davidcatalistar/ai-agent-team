@@ -1,0 +1,15 @@
+{
+  "month": "2026-10",
+  "currency": "EUR",
+  "monthly_cap_eur": "100.00",
+  "allocations_eur": {
+    "subscription": "30.00",
+    "api": "40.00",
+    "optional": "10.00",
+    "reserve": "20.00"
+  },
+  "api_enabled": false,
+  "approved_api_eur": "0.00",
+  "subscription_status": "unknown",
+  "ledger_complete": false
+}

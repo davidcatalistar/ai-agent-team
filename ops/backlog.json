@@ -1,0 +1,55 @@
+{
+  "updated": "2026-10-29",
+  "items": [
+    {
+      "task_id": "OPS-001",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Costuri oficiale, arhitectură, plan și registru local",
+      "artifact": "COST-OPTIMIZATION.md",
+      "status": "done",
+      "evidence": ["reports/QA-OPS-001.md", "8 teste trecute; QA independent accepted"],
+      "budget_eur_max": 0,
+      "acceptance": ["Surse oficiale datate", "Buget <=100 EUR", "8 profiluri", "Plan 7 zile", "QA independent"]
+    },
+    {
+      "task_id": "WEB-001",
+      "priority": "P0",
+      "owner": "web-architect",
+      "goal": "Audit public ecomputer.ro și backlog comercial cu dovezi",
+      "artifact": "reports/ecomputer-audit.md",
+      "status": "ready",
+      "budget_eur_max": 0,
+      "allowed_actions": ["public_read", "local_write"],
+      "acceptance": ["Observații susținute de pagini accesibile", "Maximum 10 priorități impact/efort", "Acces admin și date neverificate marcate"]
+    },
+    {
+      "task_id": "FIN-001",
+      "priority": "P0",
+      "owner": "data-finance-analyst",
+      "goal": "Înregistrează factura reală și toate abonamentele AI în buget",
+      "status": "blocked",
+      "blocker": "Facturi și plan activ nevizibile în sesiune",
+      "budget_eur_max": 0
+    },
+    {
+      "task_id": "WEB-002",
+      "priority": "P0",
+      "owner": "web-architect",
+      "goal": "Prima felie implementată pentru magazin, pe baza auditului",
+      "status": "blocked",
+      "blocker": "WEB-001 și repository separat al proiectului încă neconfirmat",
+      "budget_eur_max": 0
+    },
+    {
+      "task_id": "API-001",
+      "priority": "P1",
+      "owner": "automation-engineer",
+      "goal": "Pilot API cu rezervare de cost și limite configurate",
+      "status": "blocked",
+      "blocker": "Aprobare cheltuială și proiect/cheie API lipsă",
+      "budget_eur_max": 0,
+      "proposed_budget_eur": 10
+    }
+  ]
+}
