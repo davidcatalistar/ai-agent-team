@@ -1,0 +1,19 @@
+{
+  "updated": "2026-10-29",
+  "projects": [
+    {
+      "name": "ecomputer.ro — MVP nou",
+      "platform": "Sites",
+      "project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3",
+      "url": "https://e-computer-mvp.wiggly-hare-3760.chatgpt.site/",
+      "audience_observed": "public",
+      "version_observed": 2,
+      "requirements": ["Doar laptopuri", "SH", "Refurbished", "Noi", "MVP rapid și îmbunătățibil"],
+      "current_role_verified": "owner",
+      "local_alternative": "/workspace/sites/ecomputer-rebuild",
+      "local_alternative_status": "Prototip nepublicat; nu înlocuiește versiunea Sites furnizată de utilizator",
+      "old_site_recovery": "Anulată la cererea utilizatorului",
+      "custom_domain_change_approved": false
+    }
+  ]
+}

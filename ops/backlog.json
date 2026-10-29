@@ -8,9 +8,18 @@
       "goal": "Costuri oficiale, arhitectură, plan și registru local",
       "artifact": "COST-OPTIMIZATION.md",
       "status": "done",
-      "evidence": ["reports/QA-OPS-001.md", "8 teste trecute; QA independent accepted"],
+      "evidence": [
+        "reports/QA-OPS-001.md",
+        "8 teste trecute; QA independent accepted"
+      ],
       "budget_eur_max": 0,
-      "acceptance": ["Surse oficiale datate", "Buget <=100 EUR", "8 profiluri", "Plan 7 zile", "QA independent"]
+      "acceptance": [
+        "Surse oficiale datate",
+        "Buget <=100 EUR",
+        "8 profiluri",
+        "Plan 7 zile",
+        "QA independent"
+      ]
     },
     {
       "task_id": "WEB-001",
@@ -18,10 +27,24 @@
       "owner": "web-architect",
       "goal": "Audit public ecomputer.ro și backlog comercial cu dovezi",
       "artifact": "reports/ecomputer-audit.md",
-      "status": "ready",
+      "status": "done",
       "budget_eur_max": 0,
-      "allowed_actions": ["public_read", "local_write"],
-      "acceptance": ["Observații susținute de pagini accesibile", "Maximum 10 priorități impact/efort", "Acces admin și date neverificate marcate"]
+      "allowed_actions": [
+        "public_read",
+        "local_write"
+      ],
+      "acceptance": [
+        "Observații susținute de pagini accesibile",
+        "Maximum 10 priorități impact/efort",
+        "Acces admin și date neverificate marcate"
+      ],
+      "evidence": [
+        "reports/ecomputer-audit.md",
+        "reports/ecomputer-source-evidence.json",
+        "reports/ecomputer-qa-evidence.json",
+        "reports/QA-WEB-001.md"
+      ],
+      "scope_result": "Audit public delimitat acceptat; auditul comercial complet este blocat de pagina Account Suspended"
     },
     {
       "task_id": "FIN-001",
@@ -36,10 +59,11 @@
       "task_id": "WEB-002",
       "priority": "P0",
       "owner": "web-architect",
-      "goal": "Prima felie implementată pentru magazin, pe baza auditului",
-      "status": "blocked",
-      "blocker": "WEB-001 și repository separat al proiectului încă neconfirmat",
-      "budget_eur_max": 0
+      "goal": "Continuă MVP-ul existent Sites: laptopuri SH, refurbished și noi",
+      "status": "ready",
+      "budget_eur_max": 0,
+      "artifact": "reports/ecomputer-mvp-status.md",
+      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3"
     },
     {
       "task_id": "API-001",
@@ -50,6 +74,33 @@
       "blocker": "Aprobare cheltuială și proiect/cheie API lipsă",
       "budget_eur_max": 0,
       "proposed_budget_eur": 10
+    },
+    {
+      "task_id": "INC-001",
+      "priority": "P0",
+      "owner": "operations-manager",
+      "goal": "Clarifică motivul suspendării și pregătește remedierea proporțională",
+      "artifact": "reports/ecomputer-recovery-runbook.md",
+      "status": "superseded",
+      "blocker": "Recuperarea vechiului site a fost anulată explicit de utilizator; nu se mai așteaptă notificarea de hosting",
+      "budget_eur_max": 0,
+      "allowed_actions": [
+        "read",
+        "local_write"
+      ],
+      "acceptance": [
+        "Cauza confirmată din contul oficial",
+        "Acțiune concretă, cost și risc pregătite înainte de aprobare"
+      ]
+    },
+    {
+      "task_id": "WEB-005",
+      "priority": "P1",
+      "owner": "web-architect",
+      "goal": "Verifică interactiv MVP-ul Sites existent: catalog, categorii, RAM/SSD, coș și checkout exclusiv de test",
+      "status": "ready",
+      "budget_eur_max": 0,
+      "site_project_id": "appgprj_6ae311b325008191a8acf9ff7dbe82b3"
     }
   ]
 }

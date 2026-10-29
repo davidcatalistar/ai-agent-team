@@ -1,0 +1,33 @@
+{
+  "scope": "Public GET only; no login, form submission or production modification",
+  "checks": [
+    {
+      "requested_url": "https://ecomputer.ro/",
+      "checked_at_utc": "2026-10-29T13:34:18.098547+00:00",
+      "method": "GET",
+      "error": "URLError: <urlopen error [Errno 1] Operation not permitted>",
+      "redirects": []
+    },
+    {
+      "requested_url": "https://www.ecomputer.ro/",
+      "checked_at_utc": "2026-10-29T13:34:18.099083+00:00",
+      "method": "GET",
+      "error": "URLError: <urlopen error [Errno 1] Operation not permitted>",
+      "redirects": []
+    },
+    {
+      "requested_url": "http://ecomputer.ro/",
+      "checked_at_utc": "2026-10-29T13:34:18.099700+00:00",
+      "method": "GET",
+      "error": "URLError: <urlopen error [Errno 1] Operation not permitted>",
+      "redirects": []
+    },
+    {
+      "requested_url": "http://www.ecomputer.ro/",
+      "checked_at_utc": "2026-10-29T13:34:18.100118+00:00",
+      "method": "GET",
+      "error": "URLError: <urlopen error [Errno 1] Operation not permitted>",
+      "redirects": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "task_id": "WEB-001",
+  "reviewer": "qa-release-engineer",
+  "requested_at_utc": "2026-10-29T13:34:50Z",
+  "completed_at_utc": "2026-10-29T13:35:12Z",
+  "method": "TinyFish fetch_content; public read-only; ttl=0; markdown extraction",
+  "scope": "Three public URLs only; no authentication, forms, orders, browser automation, admin access or shell network",
+  "results": [
+    {
+      "requested_url": "https://www.ecomputer.ro/",
+      "final_url": "https://www.ecomputer.ro/cgi-sys/suspendedpage.cgi",
+      "title": "Account Suspended",
+      "observed_text": "Account Suspended\n\nThis Account has been suspended.\n\nContact your hosting provider for more information.",
+      "format": "markdown",
+      "page_metadata": {
+        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+      }
+    },
+    {
+      "requested_url": "https://ecomputer.ro/cgi-sys/suspendedpage.cgi",
+      "final_url": "https://ecomputer.ro/cgi-sys/suspendedpage.cgi",
+      "title": "Account Suspended",
+      "observed_text": "Account Suspended\n\nThis Account has been suspended.\n\nContact your hosting provider for more information.",
+      "format": "markdown",
+      "page_metadata": {
+        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+      }
+    },
+    {
+      "requested_url": "http://ecomputer.ro/",
+      "final_url": "http://ecomputer.ro/cgi-sys/suspendedpage.cgi",
+      "title": "Account Suspended",
+      "observed_text": "Account Suspended\n\nThis Account has been suspended.\n\nContact your hosting provider for more information.",
+      "format": "markdown",
+      "page_metadata": {
+        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "The extractor did not return HTTP status codes, response headers, TLS details or the complete redirect chain.",
+    "The suspension cause and hosting provider identity are unknown from this public extraction.",
+    "Public suspension text does not establish non-payment, compromise, data deletion or the state of the underlying shop.",
+    "The local executor network error recorded separately is not used as evidence of website failure."
+  ],
+  "cost": {
+    "purchases": "none",
+    "direct_openai_api_calls": "none",
+    "session_cost": "unknown"
+  }
+}

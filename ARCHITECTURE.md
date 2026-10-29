@@ -44,7 +44,7 @@ Calculul determinist și instrumentele de verificare au prioritate atunci când 
 
 Există maximum **o sarcină de implementare activă**. QA poate lucra în paralel pe o versiune fixă. Cercetarea suplimentară în paralel se justifică printr-un livrabil diferit și un beneficiu real; nu se dublează aceeași analiză sau implementare.
 
-Stări: `ready`, `running`, `qa`, `needs_changes`, `blocked`, `done`. `done` necesită criterii îndeplinite și dovezi. Lipsa accesului sau imposibilitatea verificării se raportează explicit; nu se maschează printr-un verdict pozitiv.
+Stări: `ready`, `running`, `qa`, `needs_changes`, `blocked`, `done`, `superseded`. `done` necesită criterii îndeplinite și dovezi. `superseded` marchează o sarcină înlocuită explicit de o decizie ulterioară a utilizatorului, fără a pretinde că a fost executată. Lipsa accesului sau imposibilitatea verificării se raportează explicit; nu se maschează printr-un verdict pozitiv.
 
 ## Contract de delegare
 
